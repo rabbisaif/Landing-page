@@ -1,0 +1,58 @@
+
+.header {
+    color: #e5e7eb;
+    font-size:18px;
+    background-color: #1f2937;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;    /* Add this */
+  
+  }
+  
+  .links {
+    /*border: 1px solid #fff;*/  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    margin-right:200px;
+  }
+  
+  .menu {
+    margin-left:200px;
+    }
+  
+.main {
+    max-width: 400px; /* Example maximum width */
+    word-wrap: break-word;
+}
+
+  .main-text {
+    font-size:48px;
+    font-weight:800;
+    margin-top:100px;
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #f9faf8;   
+  }
+  
+  .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db; /* Blue color */
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold; /* To make the text bold */
+      margin-bottom:100px;
+  }
+  
+  .image {
+    margin-top: 100px;
+  }
+  
